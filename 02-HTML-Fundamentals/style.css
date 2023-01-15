@@ -4,11 +4,17 @@ h3,
 h4,
 p,
 li {
-  font-family: sans-serif;
+  font-family: sans-serif; /* Header color */
+  color: #444;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
 }
 
 h1 {
-  color: blue;
   font-size: 26px;
   text-transform: uppercase;
   font-style: italic;
@@ -37,10 +43,67 @@ li {
   font-size: 20px;
 }
 
-footer p {
+/* footer p {
+  font-size: 16px;
+} */
+
+/*article header p {
+  font-style: italic;
+}
+*/
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
   font-size: 16px;
 }
 
-article header p {
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.related-li {
+  list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
   font-style: italic;
+}
+
+li:nth-child(even) {
+  /* color: red; */
+}
+article p:first-child {
+  color: red;
+}
+
+/* .first-li {
+  font-weight: bold;
+} */
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
 }
