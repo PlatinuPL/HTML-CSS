@@ -3,6 +3,17 @@
   padding: 0;
 }
 
+body {
+  font-family: sans-serif; /* Header color */
+  color: #444;
+  border-top: 10px solid #1098ad;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
 .main-header {
   background-color: #f7f7f7;
   /* padding: 20px;
@@ -108,12 +119,6 @@ li:last-child {
 
 .related-li {
   list-style: none;
-}
-
-body {
-  font-family: sans-serif; /* Header color */
-  color: #444;
-  border-top: 10px solid #1098ad;
 }
 
 li:first-child {
