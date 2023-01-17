@@ -20,15 +20,20 @@ body {
   /* padding: 20px;
   padding-left: 40px;
   padding-right: 40px; */
-  padding: 20px 40px;
+  padding: 20px 10px;
   margin-bottom: 60px;
-  height: 80px;
+  height: 60px;
 }
 
 nav {
+  margin-top: 20px;
   font-size: 18px;
+  text-align: center;
 }
 
+nav a {
+  margin-left: 6px;
+}
 article {
   margin-bottom: 60px;
 }
@@ -55,6 +60,7 @@ h1 {
   font-size: 26px;
   text-transform: uppercase;
   font-style: italic;
+  margin: 10px 0;
 }
 
 h2 {
@@ -197,6 +203,34 @@ h2::after {
   top: 0;
   right: -10px;
 }
+
+/* FLOATS */
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+  /* padding-left: 80px; */
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
 /* h3 + p::first-line {
   color: red;
 } */
