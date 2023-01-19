@@ -244,7 +244,7 @@ h2::after {
   grid-template-rows: 100px 1fr 25px;
   column-gap: 50px;
   row-gap: 40px;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .main-header {
