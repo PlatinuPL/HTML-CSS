@@ -47,7 +47,7 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  padding: 50px 40px;
+  padding: 40px;
 }
 
 h1,
@@ -225,15 +225,11 @@ h2::after {
   margin-bottom: 0;
   margin-left: 15px;
 }
-article {
-  width: 900px;
-}
+
 aside {
   display: flex;
   flex-direction: column;
-  height: 500px;
-  width: 390px;
-  align-items: center;
+  flex: 0 0 300px;
 }
 
 aside li {
@@ -251,12 +247,13 @@ aside li {
   font-weight: bold;
   font-style: normal;
   margin-bottom: 5px;
-  width: 200px;
 }
 
 .content-container {
   display: flex;
   justify-content: space-between;
+  gap: 75px;
+  align-items: flex-start;
 }
 /* FLOATS */
 /*  
