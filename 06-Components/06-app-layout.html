@@ -51,6 +51,8 @@
 
       section {
         background-color: #e9ecef;
+        overflow: scroll;
+
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -60,6 +62,8 @@
       .email {
         background-color: #adb5bd;
         height: 96px;
+        /* flex-shrink is necessary only if we use flex */
+        flex-shrink: 0;
         text-align: center;
         display: flex;
         align-items: center;
