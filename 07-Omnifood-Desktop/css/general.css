@@ -22,7 +22,7 @@ Paragraph default: 1.6
 
 Brand color: #e67e22
 - Tints: #fdf2e9; #fae5d3
-- Shades:
+- Shades: #45260a, #cf711f;
 - Accents:
 - Grays:
 #555
@@ -30,7 +30,7 @@ Brand color: #e67e22
 
 --- 03 SHADOWS
  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
- 
+
 --- 04 BORDER RADIUS
 
 Default: 9px
@@ -70,6 +70,12 @@ body {
   margin: 0 auto;
 }
 
+*:focus {
+  outline: none;
+  /* outline: 4px dotted #e67e22;
+  outline-offset: 8px; */
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+}
 .grid {
   display: grid;
   column-gap: 6.4rem;
@@ -144,6 +150,7 @@ body {
   letter-spacing: 1px;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -153,6 +160,21 @@ body {
   padding: 1.6rem 1.2rem;
   border-radius: 9px;
   transition: all 0.3s;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
 }
 
 .link:link,
