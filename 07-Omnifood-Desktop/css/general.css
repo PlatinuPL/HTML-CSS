@@ -25,8 +25,11 @@ Brand color: #e67e22
 - Shades: #45260a, #cf711f;
 - Accents:
 - Grays:
+#888
+#767676 - lightest gray on #fff ;
+#6f6f6f - lightest gray on #fdf2e9;
 #555
-#6f6f6f - lightest gray
+#333
 
 --- 03 SHADOWS
  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
@@ -107,6 +110,11 @@ body {
 .grid--4-cols {
   /* repeat(2,1fr) same like 1fr 1fr */
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  /* repeat(2,1fr) same like 1fr 1fr */
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .grid--alignn-v {
