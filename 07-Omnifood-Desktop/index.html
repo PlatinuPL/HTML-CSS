@@ -6,15 +6,8 @@
     <meta
       name="des"
       content="Omnifood is an AI-powered food subscription that will make you eat healthy again, 365 day per year. It's tailroed to your personal tastes and nutritional needs."
-      <!--
-      ALways
-      include
-      this
-      line
-      of
-      code
-      --
     />
+    <!-- ALways include this line of code -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="img/favicon2.png" />
     <link rel="apple-touch-icon" href="img/favicon-apple.png" />
@@ -94,11 +87,15 @@
             </div>
           </div>
           <div class="hero-image-box">
-            <img
-              src="img/hero.png"
-              class="hero-img"
-              alt="Women enjoy food, meals in storage container, and food bawils on a table"
-            />
+            <picture>
+              <source srcset="img/hero.webp" type="image/webp" />
+              <source srcset="img/hero.png" type="image/png" />
+              />
+              <img
+                src="img/hero.webp"
+                class="hero-img"
+                alt="Women enjoy food, meals in storage container, and food bawils on a table"
+            /></picture>
           </div>
         </div>
       </section>
